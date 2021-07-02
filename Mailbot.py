@@ -29,7 +29,7 @@ def get_info():
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('happyagrawal120@gmail.com', 'Ha@120802')
+    server.login('happyagrawal120@gmail.com', '*******')
     email = EmailMessage()
     email['From'] = 'happyagrawal120@gmail.com'
     email['To'] = receiver
@@ -37,7 +37,7 @@ def send_email(receiver, subject, message):
     email.set_content(message)
     server.send_message(email)
 
-# Give your list of names and their respective Emails here
+# Give your list of names and their respective Emails here:
 
 email_list = {
     'parth':'agrawalparth564@gmail.com',
