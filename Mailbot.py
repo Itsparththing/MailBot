@@ -3,7 +3,7 @@ import speech_recognition as sr
 import pyttsx3
 from email.message import EmailMessage
 
-# Before using this code first give permission to allow less secure apps
+# Before using this code first allow access to less secure apps
 
 
 listener = sr.Recognizer()
