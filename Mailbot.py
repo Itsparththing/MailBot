@@ -29,9 +29,9 @@ def get_info():
 def send_email(receiver, subject, message):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
-    server.login('happyagrawal120@gmail.com', '*******')
+    server.login('YOUR EMAIL', 'PASSWORD')
     email = EmailMessage()
-    email['From'] = 'happyagrawal120@gmail.com'
+    email['From'] = 'YOUR EMAIL'
     email['To'] = receiver
     email['Subject'] = subject
     email.set_content(message)
@@ -40,9 +40,10 @@ def send_email(receiver, subject, message):
 # Give your list of names and their respective Emails here:
 
 email_list = {
-    'parth':'agrawalparth564@gmail.com',
-    'pranav':'agrawalpranav71@gmail.com',
-    'papa':'parthagrawal35976@gmail.com'
+    
+    'NAME':'EMAIL',
+    'NAME':'EMAIL'
+    EXAMPLE:- 'XYZ':'XYZ@GMAIL.COM'
 }
 
 def get_email_info():
