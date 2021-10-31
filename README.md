@@ -1,6 +1,7 @@
 # MailBot
 
 Steps to be followed:
+
 1: Run the program
 
 2: Select to whom you want to send mail
